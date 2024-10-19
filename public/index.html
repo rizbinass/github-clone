@@ -10,11 +10,30 @@
     <script src="path/to/dist/feather.js"></script>
 </head>
 <body class="bg-black">
-    <section id="navbar" class="p-4 flex flex-row">
-        <div class="max-w-16"><button class="border h-8 w-8 rounded-md flex text-center items-center justify-center opacity-70"><i class="text-white w-4 h-8" data-feather="menu"></i></button></div>
-        <div class="max-w-16 ml-5"><img class="w-8 h-8" src="/assets/img/github-logo.png" alt="github-logo"></div>
-        <div class="max-w-16 flex text-center justify-center items-center"><a class="text-white text-sm ml-5 font-semibold" href="#">rizbinass</a></div>
-    </section>
+    <nav class="p-4">
+        <!-- Navbar content -->
+        <div class="container mx-auto max-w-full flex flex-row">
+            <div class="max-w-8 max-h-8">  
+                <button class="border border-white h-8 w-8 flex justify-center rounded-md opacity-70"><i class="text-white w-4 h-8" data-feather="menu"></i></button>
+            </div>
+            <div class="ml-5 flex justify-center items-center">
+                <img class="w-8 h-8" src="/assets/img/github-logo.png" alt="github-logo">
+            </div>
+            <div class="ml-4 flex items-center text-center justify-center">
+                <a class="text-white font-semibold text-sm" href="#">rizbinass</a>
+            </div>
+            <div class="mx-auto flex flex-row justify-between">
+                <button class="w-72 h-8 text-white text-xs flex items-center px-2 border border-white rounded-md opacity-70">
+                    <i data-feather="search" class="w-4 h-4"></i><p class="pl-2 text-sm">Type / to search</p>
+                </button>
+            </div>
+        </div>
+        <!-- END -->
+
+        <!-- Navbar responsive -->
+
+        <!-- END -->
+    </nav>
     
     <script>
         feather.replace();
