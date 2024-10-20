@@ -10,10 +10,10 @@
     <script src="path/to/dist/feather.js"></script>
 </head>
 <body class="bg-black">
-    <nav class="p-4">
+    <nav class="p-3 border-b border-gray-400">
         <!-- Navbar content -->
         <div class="container mx-auto max-w-full flex flex-row">
-            <div class="max-w-8 max-h-8">  
+            <div class="max-w-8 max-h-8 p-1">  
                 <button class="border border-white h-8 w-8 flex justify-center rounded-md opacity-70"><i class="text-white w-4 h-8" data-feather="menu"></i></button>
             </div>
             <div class="ml-5 flex justify-center items-center">
@@ -22,11 +22,21 @@
             <div class="ml-4 flex items-center text-center justify-center">
                 <a class="text-white font-semibold text-sm" href="#">rizbinass</a>
             </div>
-            <div class="mx-auto flex flex-row justify-between">
-                <button class="w-72 h-8 text-white text-xs flex items-center px-2 border border-white rounded-md opacity-70">
-                    <i data-feather="search" class="w-4 h-4"></i><p class="pl-2 text-sm">Type / to search</p>
-                </button>
+            <div class="flex ml-auto">
+                <div class="p-1 flex mr-1">  
+                    <button class="border border-white h-8 w-8 rounded-md flex justify-center opacity-70"><i class="text-white w-4 h-8" data-feather="inbox"></i></button>
+                </div>
+                <button class="border border-grey rounded-full flex justify-end"><img class="w-9 h-9 rounded-full" src="/assets/img/profile.jpg" alt="profile"></button>
             </div>
+            
+        </div>
+        <div class="flex mt-3 -mb-2 pl-1">
+            <ul class="flex flex-row text-white m-2 text-sm font-semibold">
+                <li class="flex flex-row justify-center items-center text-center">
+                    <i class="h-5 w-5" data-feather="book-open"></i>
+                    <a class="ml-2" href="">Overview</a>
+                </li>
+            </ul>
         </div>
         <!-- END -->
 

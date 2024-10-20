@@ -1,2 +1,4 @@
-"im want make clone github profile page to be my portofolio, sorry github."
-"Tech : HTML, TailwindCSS, JavaScript"
+PORTOFOLIO
+im make clone from github profile page to be my portofolio layout, sorry github LOL
+
+Tech : HTML, TailwindCSS, JavaScript
