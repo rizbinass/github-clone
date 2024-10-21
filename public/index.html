@@ -10,7 +10,7 @@
     <script src="path/to/dist/feather.js"></script>
 </head>
 <body class="bg-black">
-    <nav class="p-3 border-b border-gray-400">
+    <nav class="p-3 border-b">
         <!-- Navbar content -->
         <div class="container mx-auto max-w-full flex flex-row">
             <div class="max-w-8 max-h-8 p-1">  
@@ -30,11 +30,27 @@
             </div>
             
         </div>
-        <div class="flex mt-3 -mb-2 pl-1">
-            <ul class="flex flex-row text-white m-2 text-sm font-semibold">
-                <li class="flex flex-row justify-center items-center text-center">
-                    <i class="h-5 w-5" data-feather="book-open"></i>
+        <div class="flex mt-3 -mb-1">
+            <ul class="flex flex-row text-white text-[15px]">
+                <li class="flex flex-row justify-center items-center text-center font-semibold hover:bg-gray-800 transition ease-in-out duration-300 py-1 px-2 ml-1 rounded-md">
+                    <i class="h-4 w-4 text-gray-400" data-feather="book-open"></i>
                     <a class="ml-2" href="">Overview</a>
+                </li>
+                <li class="flex flex-row justify-center items-center text-center hover:bg-gray-800 transition ease-in-out duration-300 py-1 px-2 ml-1 rounded-md">
+                    <i class="h-4 w-4 text-gray-400" data-feather="book"></i>
+                    <a class="ml-2" href="">Repositories</a>
+                </li>
+                <li class="flex flex-row justify-center items-center text-center hover:bg-gray-800 transition ease-in-out duration-300 py-1 px-2 ml-1 rounded-md">
+                    <i class="h-4 w-4 text-gray-400" data-feather="layout"></i>
+                    <a class="ml-2" href="">Projects</a>
+                </li>
+                <li class="flex flex-row justify-center items-center text-center hover:bg-gray-800 transition ease-in-out duration-300 py-1 px-2 ml-1 rounded-md">
+                    <i class="h-4 w-4 text-gray-400" data-feather="package"></i>
+                    <a class="ml-2" href="">Packages</a>
+                </li>
+                <li class="flex flex-row justify-center items-center text-center hover:bg-gray-800 transition ease-in-out duration-300 py-1 px-2 ml-1 rounded-md">
+                    <i class="h-4 w-4 text-gray-400" data-feather="star"></i>
+                    <a class="ml-2" href="">Stars</a>
                 </li>
             </ul>
         </div>
@@ -44,6 +60,11 @@
 
         <!-- END -->
     </nav>
+
+    <div class="profile">
+        <div class="content"></div>
+    </div>
+
     
     <script>
         feather.replace();
