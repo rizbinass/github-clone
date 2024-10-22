@@ -61,17 +61,38 @@
         <!-- END -->
     </nav>
 
-    <div class="content flex flex-col md:row py-10 px-5">
+    <div class="content flex flex-col md:flex-row py-10 px-5">
         <!-- PROFILE -->
         <div class="profile flex flex-col">
             <div class="pt-4 flex text-white flex-row">
                 <img class="w-[101.33px] h-[101.33px] border border-white rounded-full" src="/assets/img/profile.jpg" alt="profile-avatar">
-                <div class="flex flex-col">
+                <div class="flex flex-col justify-center ml-4">
                     <h1 class="text-2xl font-semibold ">Rizky Bintang Assabil</h1>
                     <p class="font-thin text-gray-400 text-xl">rizbinass • he/him</p>
                 </div>
             </div>
-            <p class="pt-4 text-base text-white">Hello! I am a student at Bani Saleh University with an informatics engineering study program.</p>
+            <div class="block flex-wrap text-white w-full mt-6 opacity-70 md:hidden">
+                <button class="w-full h-8 rounded-md text-start flex items-center border border-white"><i class="ml-2 w-5 h-5" data-feather="smile"></i><span class="ml-2 text-xs">Set Status</span></button>
+            </div>
+            <div class="pt-4 text-base text-white">
+            <p class="text-xl">Hello! I am a student at Bani Saleh University with an informatics engineering study program.</p>
+            </div>
+            <div class="text-white my-4">
+                <button class="w-full h-9 rounded-md bg-#262c36 border border-white text-lg">Edit profile</button>
+            </div>
+            <div class="link text-white text-xl">
+                <ul>
+                    <li>
+                        <a class="m-1 flex items-center" href="https://instagram.com/rizbinass" target="__blank"><i class="w-5 h-5" data-feather="instagram"></i><span class="ml-1">@rizbinass</span></a>
+                    </li>
+                    <li>
+                        <a class="m-1 flex items-center" href="https://instagram.com/rizbinass" target="__blank"><i class="w-5 h-5" data-feather="linkedin"></i><span class="ml-1">@rizbinass</span></a>
+                    </li>
+                </ul>
+                <div class="flex items-center m-1">
+                <i class="w-5 h-5" data-feather="users"></i><a class="font-semibold ml-2" href="#">3</a><span class="ml-1 font-thin">followers •</span><a class="font-semibold ml-1" href="#">3</a><span class="ml-1 font-thin">following</span>
+                </div>
+            </div>
         </div>
 
         <!-- OVERVIEW -->
